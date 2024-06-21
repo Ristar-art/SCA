@@ -538,7 +538,7 @@ header .navigation-bar nav ul ul ul {
     margin: 0 auto;
 }
 .about-us-section {
-    padding: 124px 0 100px;
+    /* padding: 124px 0 100px; */
 }
 .about-us-section .about-sec {
     margin-bottom: 65px;
