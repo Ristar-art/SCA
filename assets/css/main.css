@@ -673,6 +673,74 @@ header .navigation-bar nav ul ul ul {
     font-weight: 700;
     font-family: Poppins, sans-serif;
 }
+section.testimonials-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonials-heading {
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    color: #ea0404;
+    margin-bottom: 30px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.testimonial {
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+    /* color: #333; */
+    color: #eb0303;
+    display: flex;
+    /* flex: 0 0 300px; */
+    align-self: start;
+    padding: 30px;
+    /* background-color: hsl(0, 25%, 68%); */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
+}
+
+.testimonial-content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* color: #333; */
+    /* color: #eb0303; */
+    flex: 0 0 300px;
+    padding: 30px;
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.testimonial-content h3{
+    color: black;
+}
+/* .testimonial h2 {
+    color: #2b2b2b;
+   
+    font-size: 48.77px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 1;
+} */
+
+.testimonial p {
+    margin-bottom: 15px;
+}
+
 .teachers-section {
     padding: 45px 0 138px;
 }
